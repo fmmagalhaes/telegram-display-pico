@@ -25,6 +25,12 @@ A Telegram bot that displays messages and useful information on a 20x4 I2C LCD u
 
 5. **Run** - Reset the Pico. It will connect to WiFi and start listening for Telegram commands!
 
+To start it manually from the MicroPython REPL, enter:
+```python
+from bot import main
+main()
+```
+
 ### Testing Locally
 
 To test the bot without the Pico hardware, use the `run_local.sh` script:
